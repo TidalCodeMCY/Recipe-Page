@@ -17,6 +17,12 @@ img {
     box-shadow: 0 0 4px 0px white;
 }
 
+.cheeseburger {
+    height: 360px;
+    width: 360px;
+    right: 25px;
+}
+
 header {
     text-align: center;
     display: grid;
@@ -25,7 +31,7 @@ header {
 
 li {
     margin-bottom: 2px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 main {
@@ -56,4 +62,13 @@ p {
 
 .requirements {
     text-align: center;
+}
+
+.cheeseburgerroot {
+    display: grid;
+    grid-template-rows: 7% 90.5% 2.5%;
+}
+
+.cpie {
+    padding: 30px;
 }
