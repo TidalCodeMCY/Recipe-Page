@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 15% 82.5% 2.5%;
+}
+
+img {
+    height: 460px;
+    width: 460px;
+    border-radius: 120px;
+    position: absolute;
+    right: 5px;
+    top: 210px;
+    box-shadow: 0 0 4px 0px white;
+}
+
+header {
+    text-align: center;
+    display: grid;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+main {
+    background-color: black;
+    color: whitesmoke;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+    font-size: 34px;
+    margin: 0;
+    padding-right: 100px;
+}
+
+p {
+    margin: 0;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.requirements {
+    text-align: center;
+}
